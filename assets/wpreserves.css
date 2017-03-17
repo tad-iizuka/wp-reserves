@@ -1,0 +1,61 @@
+.btn-reserve {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+/*-------------------------------------------*
+/* Messages
+/*-------------------------------------------*/
+.alert {
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding:5px;
+    background-color: #dfffdf;
+}
+.alert-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+/*    background-image: url('info.png');*/
+}
+.alert-success {
+    color: #005f00;
+    background-color: #DFF2BF;
+    border-color: #9fcf9f;
+/*    background-image:url('success.png');*/
+}
+.alert-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+/*    background-image: url('warning.png');*/
+}
+.alert-danger {
+    color: #D8000C;
+    background-color: #FFBABA;
+/*    background-image: url('error.png');*/
+}
+/**
+ * End of messages
+ */
+
+/**
+ * Reserves page (categories filter)
+ */
+.subsubsub a {
+    line-height: 2;
+    padding: .2em;
+    text-decoration: none;
+}
+.subsubsub a .count, .subsubsub a.current .count {
+    color: #999;
+    font-weight: 400;
+}
+.subsubsub a.current {
+    font-weight: bold;
+}
+.subsubsub li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
